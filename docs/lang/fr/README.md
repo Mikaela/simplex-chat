@@ -258,63 +258,63 @@ Si vous envisagez de développer avec la plateforme SimpleX, n'hésitez pas à n
 
 ## Feuille de route
 
-- ✅ Déploiement facile de serveur SimpleX avec stockage des messages en mémoire, sans aucune dépendance.
-- ✅ Client terminal (console) avec support des groupes et des fichiers.
-- ✅ Déploiement de serveur SimpleX en un clic sur Linode.
-- ✅ Chiffrement de bout en bout à l'aide du protocole double ratchet avec une couche de chiffrement supplémentaire.
-- ✅ Applications mobiles v1 pour Android et iOS.
-- ✅ Notifications instantanées privées pour Android utilisant un service d'arrière-plan.
-- ✅ Modèles de chat bot en Haskell.
-- ✅ v2.0 - prise en charge des images et des fichiers dans les applications mobiles.
-- ✅ Suppression manuelle de l'historique des chats.
-- ✅ Appels audio et vidéo WebRTC chiffrés de bout en bout via les apps mobiles.
-- ✅ Notifications instantanées préservant la confidentialité pour iOS à l'aide du service Apple Push Notification.
-- ✅ Exportation et importation de la base de données de chat.
-- ✅ Groupes de discussion dans les applications mobiles.
-- ✅ Connexion aux serveurs de messagerie via Tor.
-- ✅ Double adresse de serveur pour accéder aux serveurs de messagerie en tant que services cachés v3.
-- ✅ Serveur de chat et SDK client TypeScript pour développer des interfaces de chat, des intégrations et des bots de chat (prêt à être annoncé).
-- ✅ Mode incognito pour partager un nouveau nom aléatoire avec chaque contact.
-- ✅ Chiffrement de la base de données de chat.
-- ✅ Suppression automatique de l'historique des chats.
-- ✅ Liens pour rejoindre des groupes et améliorer la stabilité des groupes.
-- ✅ Messages vocaux (avec opt-out du destinataire par contact).
-- ✅ Authentification de base pour les serveurs SMP (pour autoriser la création de nouvelles files d'attente).
-- ✅ Affichage des messages supprimés, suppression complète des messages par l'expéditeur (avec opt-in du destinataire par contact).
-- ✅ Blocage des captures d'écran et affichage dans les apps récentes.
-- ✅ Configuration avancée du serveur.
-- ✅ Messages éphèmére (avec opt-in du destinataire par contact).
-- ✅ Messages "en direct" (dynamique).
-- ✅ Vérification des contacts via un canal distinct extérieur.
-- ✅ Plusieurs profils d'utilisateurs dans la même base de données de chat.
-- ✅ Optionnellement, éviter de réutiliser la même session TCP pour plusieurs connexions.
-- ✅ Conservation des brouillons de message.
-- ✅ Serveur de fichiers pour optimiser l'envoi efficace et privé de fichiers volumineux.
-- ✅ Amélioration des appels audio et vidéo.
-- ✅ Prise en charge d'anciens OS d'Android et des processeurs 32 bits.
-- ✅ Profiles de chat cachés
-- 🏗 Envoi et réception de fichiers volumineux via le [protocole XFTP](/blog/20230301-simplex-file-transfer-protocol.md).
-- 🏗 Messages vidéo
-- 🏗 Redondance et rotation des files d'attente SMP (mode manuel déjà fonctionnel).
-- 🏗 Réduction de l'utilisation de la batterie et du trafic dans les grands groupes.
-- Inclure un message facultatif dans la demande de connexion envoyée via l'adresse de contact.
-- Conversations éphémères/disparaissantes/OTR avec les contacts existants.
-- Mot de passe/pin d'accès (avec mot de passe d'accès alternatif facultatif).
-- Chiffrement des fichiers locaux de l'app.
-- Amélioration de la navigation et de la recherche dans la conversation (développer et faire défiler jusqu'au message cité, faire défiler jusqu'aux résultats de la recherche, etc.)
-- Confirmation de la distribution du message (avec option d'acceptation ou de refus de l'expéditeur par contact, TBC).
-- Partager votre position en privé.
-- Flux/diffusion.
-- Widgets Web pour une interactivité personnalisée dans les chats.
-- Automatismes et règles de chat programmables (réponses/transferts/suppressions/envois automatiques, rappels, etc.)
-- Prise en charge du même profil sur plusieurs appareils.
-- Client de bureau.
-- Serveur d'identité préservant la confidentialité des adresses de contact/groupe basées sur le DNS pour simplifier la connexion et la découverte, mais non utilisé pour délivrer des messages :
-  - conservez tous vos contacts et groupes même si vous perdez le domaine.
-  - le serveur ne dispose pas d'informations sur vos contacts et groupes.
-- Serveur hôte pour les grands groupes, les communautés et les canaux publics.
-- Relais de distribution des messages pour les expéditeurs (pour dissimuler l'adresse IP des serveurs des destinataires et réduire le trafic).
-- Relais SMP multi-nœuds à haute capacité.
+- [x] Déploiement facile de serveur SimpleX avec stockage des messages en mémoire, sans aucune dépendance.
+- [x] Client terminal (console) avec support des groupes et des fichiers.
+- [x] Déploiement de serveur SimpleX en un clic sur Linode.
+- [x] Chiffrement de bout en bout à l'aide du protocole double ratchet avec une couche de chiffrement supplémentaire.
+- [x] Applications mobiles v1 pour Android et iOS.
+- [x] Notifications instantanées privées pour Android utilisant un service d'arrière-plan.
+- [x] Modèles de chat bot en Haskell.
+- [x] v2.0 - prise en charge des images et des fichiers dans les applications mobiles.
+- [x] Suppression manuelle de l'historique des chats.
+- [x] Appels audio et vidéo WebRTC chiffrés de bout en bout via les apps mobiles.
+- [x] Notifications instantanées préservant la confidentialité pour iOS à l'aide du service Apple Push Notification.
+- [x] Exportation et importation de la base de données de chat.
+- [x] Groupes de discussion dans les applications mobiles.
+- [x] Connexion aux serveurs de messagerie via Tor.
+- [x] Double adresse de serveur pour accéder aux serveurs de messagerie en tant que services cachés v3.
+- [x] Serveur de chat et SDK client TypeScript pour développer des interfaces de chat, des intégrations et des bots de chat (prêt à être annoncé).
+- [x] Mode incognito pour partager un nouveau nom aléatoire avec chaque contact.
+- [x] Chiffrement de la base de données de chat.
+- [x] Suppression automatique de l'historique des chats.
+- [x] Liens pour rejoindre des groupes et améliorer la stabilité des groupes.
+- [x] Messages vocaux (avec opt-out du destinataire par contact).
+- [x] Authentification de base pour les serveurs SMP (pour autoriser la création de nouvelles files d'attente).
+- [x] Affichage des messages supprimés, suppression complète des messages par l'expéditeur (avec opt-in du destinataire par contact).
+- [x] Blocage des captures d'écran et affichage dans les apps récentes.
+- [x] Configuration avancée du serveur.
+- [x] Messages éphèmére (avec opt-in du destinataire par contact).
+- [x] Messages "en direct" (dynamique).
+- [x] Vérification des contacts via un canal distinct extérieur.
+- [x] Plusieurs profils d'utilisateurs dans la même base de données de chat.
+- [x] Optionnellement, éviter de réutiliser la même session TCP pour plusieurs connexions.
+- [x] Conservation des brouillons de message.
+- [x] Serveur de fichiers pour optimiser l'envoi efficace et privé de fichiers volumineux.
+- [x] Amélioration des appels audio et vidéo.
+- [x] Prise en charge d'anciens OS d'Android et des processeurs 32 bits.
+- [x] Profiles de chat cachés
+- [ ] 🏗 Envoi et réception de fichiers volumineux via le [protocole XFTP](/blog/20230301-simplex-file-transfer-protocol.md).
+- [ ] 🏗 Messages vidéo
+- [ ] 🏗 Redondance et rotation des files d'attente SMP (mode manuel déjà fonctionnel).
+- [ ] 🏗 Réduction de l'utilisation de la batterie et du trafic dans les grands groupes.
+- [ ] Inclure un message facultatif dans la demande de connexion envoyée via l'adresse de contact.
+- [ ] Conversations éphémères/disparaissantes/OTR avec les contacts existants.
+- [ ] Mot de passe/pin d'accès (avec mot de passe d'accès alternatif facultatif).
+- [ ] Chiffrement des fichiers locaux de l'app.
+- [ ] Amélioration de la navigation et de la recherche dans la conversation (développer et faire défiler jusqu'au message cité, faire défiler jusqu'aux résultats de la recherche, etc.)
+- [ ] Confirmation de la distribution du message (avec option d'acceptation ou de refus de l'expéditeur par contact, TBC).
+- [ ] Partager votre position en privé.
+- [ ] Flux/diffusion.
+- [ ] Widgets Web pour une interactivité personnalisée dans les chats.
+- [ ] Automatismes et règles de chat programmables (réponses/transferts/suppressions/envois automatiques, rappels, etc.)
+- [ ] Prise en charge du même profil sur plusieurs appareils.
+- [ ] Client de bureau.
+- [ ] Serveur d'identité préservant la confidentialité des adresses de contact/groupe basées sur le DNS pour simplifier la connexion et la découverte, mais non utilisé pour délivrer des messages :
+  - [ ] conservez tous vos contacts et groupes même si vous perdez le domaine.
+  - [ ] le serveur ne dispose pas d'informations sur vos contacts et groupes.
+- [ ] Serveur hôte pour les grands groupes, les communautés et les canaux publics.
+- [ ] Relais de distribution des messages pour les expéditeurs (pour dissimuler l'adresse IP des serveurs des destinataires et réduire le trafic).
+- [ ] Relais SMP multi-nœuds à haute capacité.
 
 
 ## Avertissements

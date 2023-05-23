@@ -172,59 +172,59 @@ Pokud uvažujete o vývoji s platformou SimpleX, obraťte se na nás pro přípa
 
 ## Plán postupu
 
-- ✅ Snadné nasazení serveru SimpleX s ukládáním zpráv v paměti, bez jakýchkoli závislostí.
-- ✅ Terminálový (konzolový) klient s podporou skupin a souborů.
-- ✅ Nasazení serveru SimpleX na Linode jedním kliknutím.
-- ✅ Koncové šifrování pomocí protokolu double-ratchet s další vrstvou šifrování.
-- ✅ Mobilní aplikace v1 pro Android a iOS.
-- ✅ Soukromá okamžitá oznámení pro Android pomocí služby na pozadí.
-- ✅ Šablony chatovacích botů v jazyce Haskell.
-- ✅ Verze v2.0 - podpora obrázků a souborů v mobilních aplikacích.
-- ✅ Ruční mazání historie chatu.
-- ✅ Koncové šifrované zvukové a obrazové hovory WebRTC prostřednictvím mobilních aplikací.
-- ✅ Okamžitá oznámení zachovávající soukromí pro iOS pomocí služby Apple Push Notification.
-- ✅ Export a import databáze chatů.
-- ✅ Chatovací skupiny v mobilních aplikacích.
-- ✅ Připojení k serverům pro zasílání zpráv přes Tor.
-- ✅ Duální adresy serverů pro přístup k serverům pro zasílání zpráv jako skryté služby v3.
-- ✅ Chatovací server a TypeScript klient SDK pro vývoj chatovacích rozhraní, integrací a chatovacích botů (připraveno k oznámení).
-- ✅ Režim inkognito pro sdílení nového náhodného jména s každým kontaktem.
-- ✅ Šifrování databáze chatu.
-- ✅ Automatické mazání historie chatu.
-- ✅ Odkazy pro připojení ke skupinám a zlepšení stability skupin.
-- ✅ Hlasové zprávy (s možností odhlášení příjemce na kontakt).
-- ✅ Základní ověřování pro servery SMP (pro autorizaci vytváření nových front).
-- ✅ Zobrazení smazaných zpráv, úplné odstranění zpráv odesílatelem (s možností opt-in příjemce na kontakt).
-- ✅ Blokování snímků obrazovky a zobrazení v posledních aplikacích.
-- ✅ Pokročilá konfigurace serveru.
-- ✅ Zmizení zpráv (s možností opt-in příjemce na kontakt).
-- ✅ "Živé" zprávy.
-- ✅ Ověření kontaktu prostřednictvím samostatného mimopásmového kanálu.
-- ✅ Více uživatelských profilů v jedné chatové databázi.
-- ✅ Volitelně zamezení opakovaného používání stejné relace TCP pro více spojení.
-- ✅ Zachování návrhů zpráv.
-- 🏗 Souborový server pro optimalizaci efektivního a soukromého odesílání velkých souborů.
-- 🏗 Vylepšené audio a video hovory.
-- 🏗 Redundance a rotace fronty SMP (je podporováno ruční nastavení).
-- 🏗 Snížení spotřeby baterie a provozu ve velkých skupinách.
-- 🏗 Podpora starších operačních systémů Android a 32bitových procesorů.
-- Efemérní/zmizelé/OTR konverzace se stávajícími kontakty.
-- Přístupové heslo/pin (s volitelným alternativním přístupovým heslem).
-- Šifrování místních souborů aplikace.
-- Videozprávy.
-- Vylepšená navigace a vyhledávání v konverzaci (rozbalení a posun na citovanou zprávu, posun na výsledky vyhledávání atd.)
-- Potvrzení o doručení zprávy (s možností přihlášení nebo odhlášení odesílatele pro každý kontakt, TBC).
-- Zprávy/rozhlasové vysílání.
-- Webové widgety pro vlastní interaktivitu v chatech.
-- Programovatelné automatizace/pravidla chatu (automatické odpovědi/přeposlání/odstranění/odeslání, připomenutí atd.)
-- Podpora stejného profilu na více zařízeních.
-- Klient pro stolní počítače.
-- Server identity zachovávající soukromí pro volitelné adresy kontaktů/skupin založené na DNS pro zjednodušení připojení a zjišťování, ale nepoužívaný k doručování zpráv:
-  - Zachovejte si všechny kontakty a skupiny, i když ztratíte doménu.
-  - Server nemá informace o vašich kontaktech a skupinách.
-- Hostitelský server pro velké skupiny, komunity a veřejné kanály.
-- Relé pro doručování zpráv pro odesílatele (pro skrytí IP adresy před servery příjemců a snížení provozu).
-- Vysokokapacitní víceuzlové relé SMP.
+- [x] Snadné nasazení serveru SimpleX s ukládáním zpráv v paměti, bez jakýchkoli závislostí.
+- [x] Terminálový (konzolový) klient s podporou skupin a souborů.
+- [x] Nasazení serveru SimpleX na Linode jedním kliknutím.
+- [x] Koncové šifrování pomocí protokolu double-ratchet s další vrstvou šifrování.
+- [x] Mobilní aplikace v1 pro Android a iOS.
+- [x] Soukromá okamžitá oznámení pro Android pomocí služby na pozadí.
+- [x] Šablony chatovacích botů v jazyce Haskell.
+- [x] Verze v2.0 - podpora obrázků a souborů v mobilních aplikacích.
+- [x] Ruční mazání historie chatu.
+- [x] Koncové šifrované zvukové a obrazové hovory WebRTC prostřednictvím mobilních aplikací.
+- [x] Okamžitá oznámení zachovávající soukromí pro iOS pomocí služby Apple Push Notification.
+- [x] Export a import databáze chatů.
+- [x] Chatovací skupiny v mobilních aplikacích.
+- [x] Připojení k serverům pro zasílání zpráv přes Tor.
+- [x] Duální adresy serverů pro přístup k serverům pro zasílání zpráv jako skryté služby v3.
+- [x] Chatovací server a TypeScript klient SDK pro vývoj chatovacích rozhraní, integrací a chatovacích botů (připraveno k oznámení).
+- [x] Režim inkognito pro sdílení nového náhodného jména s každým kontaktem.
+- [x] Šifrování databáze chatu.
+- [x] Automatické mazání historie chatu.
+- [x] Odkazy pro připojení ke skupinám a zlepšení stability skupin.
+- [x] Hlasové zprávy (s možností odhlášení příjemce na kontakt).
+- [x] Základní ověřování pro servery SMP (pro autorizaci vytváření nových front).
+- [x] Zobrazení smazaných zpráv, úplné odstranění zpráv odesílatelem (s možností opt-in příjemce na kontakt).
+- [x] Blokování snímků obrazovky a zobrazení v posledních aplikacích.
+- [x] Pokročilá konfigurace serveru.
+- [x] Zmizení zpráv (s možností opt-in příjemce na kontakt).
+- [x] "Živé" zprávy.
+- [x] Ověření kontaktu prostřednictvím samostatného mimopásmového kanálu.
+- [x] Více uživatelských profilů v jedné chatové databázi.
+- [x] Volitelně zamezení opakovaného používání stejné relace TCP pro více spojení.
+- [x] Zachování návrhů zpráv.
+- [ ] 🏗 Souborový server pro optimalizaci efektivního a soukromého odesílání velkých souborů.
+- [ ] 🏗 Vylepšené audio a video hovory.
+- [ ] 🏗 Redundance a rotace fronty SMP (je podporováno ruční nastavení).
+- [ ] 🏗 Snížení spotřeby baterie a provozu ve velkých skupinách.
+- [ ] 🏗 Podpora starších operačních systémů Android a 32bitových procesorů.
+- [ ] Efemérní/zmizelé/OTR konverzace se stávajícími kontakty.
+- [ ] Přístupové heslo/pin (s volitelným alternativním přístupovým heslem).
+- [ ] Šifrování místních souborů aplikace.
+- [ ] Videozprávy.
+- [ ] Vylepšená navigace a vyhledávání v konverzaci (rozbalení a posun na citovanou zprávu, posun na výsledky vyhledávání atd.)
+- [ ] Potvrzení o doručení zprávy (s možností přihlášení nebo odhlášení odesílatele pro každý kontakt, TBC).
+- [ ] Zprávy/rozhlasové vysílání.
+- [ ] Webové widgety pro vlastní interaktivitu v chatech.
+- [ ] Programovatelné automatizace/pravidla chatu (automatické odpovědi/přeposlání/odstranění/odeslání, připomenutí atd.)
+- [ ] Podpora stejného profilu na více zařízeních.
+- [ ] Klient pro stolní počítače.
+- [ ] Server identity zachovávající soukromí pro volitelné adresy kontaktů/skupin založené na DNS pro zjednodušení připojení a zjišťování, ale nepoužívaný k doručování zpráv:
+  - [ ] Zachovejte si všechny kontakty a skupiny, i když ztratíte doménu.
+  - [ ] Server nemá informace o vašich kontaktech a skupinách.
+- [ ] Hostitelský server pro velké skupiny, komunity a veřejné kanály.
+- [ ] Relé pro doručování zpráv pro odesílatele (pro skrytí IP adresy před servery příjemců a snížení provozu).
+- [ ] Vysokokapacitní víceuzlové relé SMP.
 
 ## Připojte se ke skupině uživatelů
 

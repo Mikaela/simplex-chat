@@ -278,65 +278,65 @@ If you are considering developing with SimpleX platform please get in touch for 
 
 ## Roadmap
 
-- ✅ Easy to deploy SimpleX server with in-memory message storage, without any dependencies.
-- ✅ Terminal (console) client with groups and files support.
-- ✅ One-click SimpleX server deployment on Linode.
-- ✅ End-to-end encryption using double-ratchet protocol with additional encryption layer.
-- ✅ Mobile apps v1 for Android and iOS.
-- ✅ Private instant notifications for Android using background service.
-- ✅ Haskell chat bot templates.
-- ✅ v2.0 - supporting images and files in mobile apps.
-- ✅ Manual chat history deletion.
-- ✅ End-to-end encrypted WebRTC audio and video calls via the mobile apps.
-- ✅ Privacy preserving instant notifications for iOS using Apple Push Notification service.
-- ✅ Chat database export and import.
-- ✅ Chat groups in mobile apps.
-- ✅ Connecting to messaging servers via Tor.
-- ✅ Dual server addresses to access messaging servers as v3 hidden services.
-- ✅ Chat server and TypeScript client SDK to develop chat interfaces, integrations and chat bots (ready for announcement).
-- ✅ Incognito mode to share a new random name with each contact.
-- ✅ Chat database encryption.
-- ✅ Automatic chat history deletion.
-- ✅ Links to join groups and improve groups stability.
-- ✅ Voice messages (with recipient opt-out per contact).
-- ✅ Basic authentication for SMP servers (to authorize creating new queues).
-- ✅ View deleted messages, full message deletion by sender (with recipient opt-in per contact).
-- ✅ Block screenshots and view in recent apps.
-- ✅ Advanced server configuration.
-- ✅ Disappearing messages (with recipient opt-in per-contact).
-- ✅ "Live" messages.
-- ✅ Contact verification via a separate out-of-band channel.
-- ✅ Multiple user profiles in the same chat database.
-- ✅ Optionally avoid re-using the same TCP session for multiple connections.
-- ✅ Preserve message drafts.
-- ✅ File server to optimize for efficient and private sending of large files.
-- ✅ Improved audio & video calls.
-- ✅ Support older Android OS and 32-bit CPUs.
-- ✅ Hidden chat profiles.
-- ✅ Sending and receiving large files via [XFTP protocol](./blog/20230301-simplex-file-transfer-protocol.md).
-- ✅ Video messages.
-- ✅ App access passcode.
-- 🏗 Improved Android app UI design.
-- 🏗 SMP queue redundancy and rotation (manual is supported).
-- 🏗 Reduced battery and traffic usage in large groups.
-- Include optional message into connection request sent via contact address.
-- Ephemeral/disappearing/OTR conversations with the existing contacts.
-- Optional alternative access password.
-- Local app files encryption.
-- Improved navigation and search in the conversation (expand and scroll to quoted message, scroll to search results, etc.).
-- Message delivery confirmation (with sender opt-in or opt-out per contact, TBC).
-- Privately share your location.
-- Feeds/broadcasts.
-- Web widgets for custom interactivity in the chats.
-- Programmable chat automations / rules (automatic replies/forward/deletion/sending, reminders, etc.).
-- Supporting the same profile on multiple devices.
-- Desktop client.
-- Privacy-preserving identity server for optional DNS-based contact/group addresses to simplify connection and discovery, but not used to deliver messages:
-  - keep all your contacts and groups even if you lose the domain.
-  - the server doesn't have information about your contacts and groups.
-- Hosting server for large groups, communities and public channels.
-- Message delivery relay for senders (to conceal IP address from the recipients' servers and to reduce the traffic).
-- High capacity multi-node SMP relays.
+- [x] Easy to deploy SimpleX server with in-memory message storage, without any dependencies.
+- [x] Terminal (console) client with groups and files support.
+- [x] One-click SimpleX server deployment on Linode.
+- [x] End-to-end encryption using double-ratchet protocol with additional encryption layer.
+- [x] Mobile apps v1 for Android and iOS.
+- [x] Private instant notifications for Android using background service.
+- [x] Haskell chat bot templates.
+- [x] v2.0 - supporting images and files in mobile apps.
+- [x] Manual chat history deletion.
+- [x] End-to-end encrypted WebRTC audio and video calls via the mobile apps.
+- [x] Privacy preserving instant notifications for iOS using Apple Push Notification service.
+- [x] Chat database export and import.
+- [x] Chat groups in mobile apps.
+- [x] Connecting to messaging servers via Tor.
+- [x] Dual server addresses to access messaging servers as v3 hidden services.
+- [x] Chat server and TypeScript client SDK to develop chat interfaces, integrations and chat bots (ready for announcement).
+- [x] Incognito mode to share a new random name with each contact.
+- [x] Chat database encryption.
+- [x] Automatic chat history deletion.
+- [x] Links to join groups and improve groups stability.
+- [x] Voice messages (with recipient opt-out per contact).
+- [x] Basic authentication for SMP servers (to authorize creating new queues).
+- [x] View deleted messages, full message deletion by sender (with recipient opt-in per contact).
+- [x] Block screenshots and view in recent apps.
+- [x] Advanced server configuration.
+- [x] Disappearing messages (with recipient opt-in per-contact).
+- [x] "Live" messages.
+- [x] Contact verification via a separate out-of-band channel.
+- [x] Multiple user profiles in the same chat database.
+- [x] Optionally avoid re-using the same TCP session for multiple connections.
+- [x] Preserve message drafts.
+- [x] File server to optimize for efficient and private sending of large files.
+- [x] Improved audio & video calls.
+- [x] Support older Android OS and 32-bit CPUs.
+- [x] Hidden chat profiles.
+- [x] Sending and receiving large files via [XFTP protocol](./blog/20230301-simplex-file-transfer-protocol.md).
+- [x] Video messages.
+- [x] App access passcode.
+- [ ] 🏗 Improved Android app UI design.
+- [ ] 🏗 SMP queue redundancy and rotation (manual is supported).
+- [ ] 🏗 Reduced battery and traffic usage in large groups.
+- [ ] Include optional message into connection request sent via contact address.
+- [ ] Ephemeral/disappearing/OTR conversations with the existing contacts.
+- [ ] Optional alternative access password.
+- [ ] Local app files encryption.
+- [ ] Improved navigation and search in the conversation (expand and scroll to quoted message, scroll to search results, etc.).
+- [ ] Message delivery confirmation (with sender opt-in or opt-out per contact, TBC).
+- [ ] Privately share your location.
+- [ ] Feeds/broadcasts.
+- [ ] Web widgets for custom interactivity in the chats.
+- [ ] Programmable chat automations / rules (automatic replies/forward/deletion/sending, reminders, etc.).
+- [ ] Supporting the same profile on multiple devices.
+- [ ] Desktop client.
+- [ ] Privacy-preserving identity server for optional DNS-based contact/group addresses to simplify connection and discovery, but not used to deliver messages:
+  - [ ] keep all your contacts and groups even if you lose the domain.
+  - [ ] the server doesn't have information about your contacts and groups.
+- [ ] Hosting server for large groups, communities and public channels.
+- [ ] Message delivery relay for senders (to conceal IP address from the recipients' servers and to reduce the traffic).
+- [ ] High capacity multi-node SMP relays.
 
 ## Disclaimers
 
